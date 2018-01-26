@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import CustomListview from './componentes/CustomListview'
+import CustomListview from './components/CustomListview'
 
 import {
   Platform,
@@ -18,6 +18,7 @@ import {
 export default class App extends Component<{}> {
 
 
+  /* Return object for populate the list */
   getData() {
     return [
       {
